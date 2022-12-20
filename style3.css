@@ -1,0 +1,54 @@
+.main-card{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin: 10% 10%;
+    transition-property: all;
+    transition-duration: 2s;
+    background-color: white;
+
+}
+.main-card:hover{
+    box-shadow: 20px 20px 100px -50px #000;
+    transform: translate(0px,-8px);
+}
+
+.card-1.card-2{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+.p-1{
+    text-decoration: none;
+    margin: 0 5%;
+}
+h2{
+    font-size: 34px;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin: 5% 5%;
+}
+.button-2{
+    width: 150px;
+    height: 50px;
+    border: 1px ridge orange;
+    background-color: orange;
+    color: white;
+    margin: 5% 5%;
+    border-radius: 10px;
+}
+.button-2:hover{
+    background-color:rgb(197, 143, 105);
+    color:white;
+    cursor:pointer;
+
+}
+.section-1{
+    background-image: url("../assets/simple-design.jpg");
+    background-size: cover;
+}
+.mask-custom{
+    backdrop-filter: blur(10px);
+}

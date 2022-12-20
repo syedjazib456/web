@@ -1,0 +1,40 @@
+h3,h4,p{
+    margin: 10px 0;
+}
+p{
+    text-decoration: line-through;
+}
+h3{
+    color: rgb(88, 88, 196);
+}
+h4{
+    color: rgb(76, 199, 199);
+    font-size: 24px;
+}
+@media screen and (max-width:1019px){
+    .item,.item-1,.item-2{
+    
+     display: flex;
+     flex-direction: column;
+    }
+    .con-1{
+        width: 50%;
+    }
+    
+}
+.button-1{
+    width: 300px;
+    color: black;
+    border-radius: 10px;
+    margin: 3% 30%;
+    height: 50px;
+}
+.button-1:hover{
+ background-color: black;
+ color: white;
+ 
+}
+.con-1{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
